@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom T-Shirt</title>
+</head>
+<body bgcolor="beige">
+    <center>
+    <font color="Blue">
+    <h2>Get your Customized T-Shirts now!!</h2></font></center>
+    <form>
+        <fieldset>
+            <legend>Customize Your T-Shirt</legend>
+            
+            <label>Tagline on the Shirt:</label>
+            <input type="text" placeholder="Enter your tagline"><br><br>
+            
+            <label>Color:</label>
+            <select required>
+                <option value="">Select a color</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select><br><br>
+            
+            <label>Size:</label>
+            <select required>
+                <option value="">Select a size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+            </select><br><br>
+            
+            <label>Quantity:</label>
+            <input type="number" min="1" placeholder="Enter quantity" required><br><br>
+            
+            <label>Delivery Date:</label>
+            <input type="date" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Delivery Details</legend>
+            
+            <label>Name:</label>
+            <input type="text" placeholder="Enter recipient's name" required><br><br>
+            
+            <label>Address:</label>
+            <input type="text" placeholder="Enter address" required><br><br>
+            
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email" required><br><br>
+            
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Comments</legend>
+            
+            <label>Additional Comments or Special Instructions:</label><br>
+            <textarea placeholder="Enter any additional comments or special instructions" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+        
+        <button >Submit Order</button>
+        <button type="reset">Reset Form</button>
+    </form>
+</body>
+</html>
